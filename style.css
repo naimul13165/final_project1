@@ -1,10 +1,14 @@
 body {
     font-family: 'Patua One', cursive;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .total {
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -31,5 +35,21 @@ h1 {
     color: aliceblue;
     text-decoration: none;
     background-image: linear-gradient(#add, red);
-    padding: 12px 30px;
+    padding: 8px 25px;
+    border-radius: 10px;
+}
+
+.second_section {
+    display: flex;
+    margin-top: 10%;
+}
+
+.download {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(#800080, #add);
+    padding: 10px 30px;
+    border-radius: 10px;
 }
