@@ -57,6 +57,12 @@ h1 {
     border-radius: 10px;
 }
 
+.experience-Area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .font {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
@@ -65,4 +71,38 @@ h1 {
 
 .Flexible-container {
     display: flex;
+}
+
+.header-line {
+    font-size: 40px;
+}
+
+.title-line {
+    font-size: 20px;
+    color: blue;
+}
+
+.experience-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px rgb(179, 33, 33);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px 25px;
+    border-radius: 15px;
+}
+
+#full-stack-devloper {
+    border-left: 7px solid tomato;
+}
+
+#Baby-Web-devloper {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    color: rgb(70, 69, 69);
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    margin: 250px 0 50px 0;
 }
